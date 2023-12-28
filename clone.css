@@ -1,0 +1,136 @@
+#heading{
+    display: flex;
+    text-align: start;
+    justify-content:center;
+    height: 50px;
+    width: 100%;
+    background-color:#131921 ;
+    font-size: 30px;
+    font-style: unset;
+    font-weight: bold;
+    color:#f5f5f6 ;
+    margin: auto;
+}
+#heading > a {
+    margin: auto;
+    text-align: left;
+    text-decoration: none;
+    color:#f5f5f6
+    
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+#nav > a {
+    color: azure;
+    margin: auto;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#slide{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+
+}
+#slide > img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100%;
+    margin-top: -175px;
+    gap: 10px;
+    background-color: azure;
+    
+
+}
+
+
+
+.container1,
+.container2,
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.box {
+    /* border: 1px solid #000; */
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+#box1 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF_4-372-232._SY232_CB636110853_.jpg');
+}
+
+#box2 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-372-232._SY232_CB636110853_.jpg');
+}
+
+#box3 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-372-232._SY232_CB636110853_.jpg');
+}
+
+#box4 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-372-232._SY232_CB636110853_.jpg');
+}
+
+
+#box5 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img21/MSO/CE/Unrec1/Boat_Desktop_Qc_2x._SY232_CB577919562_.jpg');
+}
+
+#box6 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img21/MSO/CE/Unrec1/Boult_Desktop_Qc_2x._SY232_CB577919562_.jpg');
+}
+
+#box7 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img21/MSO/CE/Unrec1/Noise_Desktop_Qc_2x._SY232_CB577919562_.jpg');
+}
+
+#box8 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/img21/MSO/CE/Unrec1/Zebronics_Desktop_Qc_2x._SY232_CB577919562_.jpg');
+}
+
+
+
+#box9 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/IMG23/Suma/MSO/Dec/DesktopQC/Christmas/2x_Desktop_Quad_card_w_title_-_Card_1._SY232_CB570558331_.jpg');
+}
+
+#box10 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/IMG23/Suma/MSO/Dec/DesktopQC/Christmas/2x_Desktop_Quad_card_w_title_-_Card_2._SY232_CB570558331_.jpg');
+}
+
+#box11 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/IMG23/Suma/MSO/Dec/DesktopQC/Christmas/2x_Desktop_Quad_card_w_title_-_Card_3._SY232_CB570558331_.jpg');
+}
+
+#box12 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/IMG23/Suma/MSO/Dec/DesktopQC/Christmas/2x_Desktop_Quad_card_w_title_-_Card_4._SY232_CB570558331_.jpg');
+}
